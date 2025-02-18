@@ -30,6 +30,7 @@ namespace TextKvestGame
             {
                 case 1:
                     {
+                        pictureBox1.Image = Image.FromFile("приветствие.jpg");
                         label1.Text = "Привет! Я вирус.\n" + "Я люблю заражать компьютеры!";
                         button1.Text = "Привет.";
                         button2.Text = "Уйди!";
@@ -37,6 +38,7 @@ namespace TextKvestGame
                     }
                 case 2:
                     {
+                        
                         label1.Text = "Ура!  ☺\n" + "Другие просят меня уйти, а ты нет.";
                         button1.Text = "Почему?";
                         button2.Text = "Уйди!";
@@ -44,6 +46,7 @@ namespace TextKvestGame
                     }
                 case 3:
                     {
+                        pictureBox1.Image = Image.FromFile("приветствие.jpg");
                         label1.Text = "Почему ты меня прогоняешь?\n" + "Я только хотел поговорить...";
                         button1.Text = "Мне некогда.";
                         button2.Text = "Уйди!";
@@ -51,6 +54,7 @@ namespace TextKvestGame
                     }
                 case 4:
                     {
+                        pictureBox1.Image = Image.FromFile("приветствие.jpg");
                         label1.Text = "Наверное, боятся...\n" + "А я добрый вирус.";
                         button1.Text = "А я не боюсь!";
                         button2.Text = "И я босюь.";
@@ -58,6 +62,7 @@ namespace TextKvestGame
                     }
                 case 5:
                     {
+                        pictureBox1.Image = Image.FromFile("обнимашки.jpg");
                         label1.Text = "И ты тоже?\n" + "Но ведь... я добрый... вирус...";
                         button1.Text = "И что?";
                         button2.Text = "Уйди!";
@@ -72,6 +77,7 @@ namespace TextKvestGame
                     }
                 case 7:
                     {
+                        pictureBox1.Image = Image.FromFile("злюка.jpg");
                         label1.Text = "Что ты все уйди да уйди?\n" + "Я не уйду!";
                         button1.Text = "Почему?";
                         button2.Text = "Уйди!";
@@ -100,6 +106,7 @@ namespace TextKvestGame
                     }
                 case 11://
                     {
+                        pictureBox1.Image = Image.FromFile("еще толстый.jpg");
                         label1.Text = "Ах ты так?\n" + "Надо посильнее заразить компьютер.";
                         button1.Text = "Я ругаться буду.";
                         button2.Text = "Уйди!";
@@ -128,6 +135,7 @@ namespace TextKvestGame
                     }
                 case 15://
                     {
+                        pictureBox1.Image = Image.FromFile("еще толстый.jpg");
                         label1.Text = "Я знаю! Тебя звать Уйди?\n" + "";
                         button1.Text = "Нет";
                         button2.Text = "Уйди!";
@@ -156,6 +164,7 @@ namespace TextKvestGame
                     }
                 case 19://
                     {
+                        pictureBox1.Image = Image.FromFile("приветствие.jpg");
                         label1.Text = "Даже если я обещаю\n" + "не заражать твой компьютер.";
                         button1.Text = "Да.";
                         button2.Text = "Ты вирус!";
@@ -163,6 +172,7 @@ namespace TextKvestGame
                     }
                 case 20://
                     {
+                        pictureBox1.Image = Image.FromFile("приветствие.jpg");
                         label1.Text = "А разве вирусы с человеками\n не могут дружить?";
                         button1.Text = "Нет.";
                         button2.Text = "Люди удаляют их.";
@@ -170,6 +180,7 @@ namespace TextKvestGame
                     }
                 case 21://
                     {
+                        pictureBox1.Image = Image.FromFile("обнимашки.jpg");
                         label1.Text = "Вот сейчас заражу тебя!\n" + "";
                         button1.Text = "Нельзя!";
                         button2.Text = "Исчезни!";
@@ -198,6 +209,7 @@ namespace TextKvestGame
                     }
                 case 25://
                     {
+                        pictureBox1.Image = Image.FromFile("приветствие.jpg");
                         label1.Text = "От работы дохнут кони.\n" + "Ну, а ты бессмертный?";
                         button1.Text = "Пони.";
                         button2.Text = "Работаю.";
@@ -205,6 +217,7 @@ namespace TextKvestGame
                     }
                 case 26://
                     {
+                        pictureBox1.Image = Image.FromFile("еще толстый.jpg");
                         label1.Text = "Так ты не работай.\n" + "";
                         button1.Text = "Надо.";
                         button2.Text = "Нельзя.";
@@ -275,6 +288,7 @@ namespace TextKvestGame
                     }
                 case 36:
                     {
+                        pictureBox1.Image = Image.FromFile("злюка.jpg");
                         label1.Text = "Замечательно!!!\n" + "Меня вирусная мама зовет.\n Потом еще поиграем.";
                         button1.Text = "Пока.";
                         button2.Text = "Удачи.";
@@ -289,6 +303,7 @@ namespace TextKvestGame
                     }
                 case 38:
                     {
+                        pictureBox1.Image = Image.FromFile("обнимашки.jpg");
                         label1.Text = "Прости меня.\n" + "Я пойду?";
                         button1.Text = "Пока.";
                         button2.Text = "Удачи.";
@@ -310,6 +325,8 @@ namespace TextKvestGame
                     }
                 case 41:
                     {
+                        
+                        pictureBox1.Image = Image.FromFile("обнимашки.jpg");
                         label1.Text = "Мне ... Я... \n Пока!";
                         button1.Text = "Пока.";
                         button2.Text = "Удачи.";
@@ -317,6 +334,7 @@ namespace TextKvestGame
                     }
                 case 42:
                     {
+                        pictureBox1.Image = Image.FromFile("обнимашки.jpg");
                         label1.Text = "Эх... Ладно...\n" + "Пока!";
                         button1.Text = "Пока.";
                         button2.Text = "Удачи.";
@@ -324,6 +342,7 @@ namespace TextKvestGame
                     }
                 case 43:
                     {
+                        pictureBox1.Image = Image.FromFile("обнимашки.jpg");
                         label1.Text = "Злюка ты!\n" + "Даже заражать не хочется.\n Я ухожу.";
                         button1.Text = "Пока.";
                         button2.Text = "Удачи.";
@@ -338,6 +357,7 @@ namespace TextKvestGame
                     }
                 case 45:
                     {
+                        pictureBox1.Image = Image.FromFile("обнимашки.jpg");
                         label1.Text = "Правда?\n" + "Можно я просто уйду?";
                         button1.Text = "Да.";
                         button2.Text = "Уйди.";
@@ -352,6 +372,7 @@ namespace TextKvestGame
                     }
                 case 47:
                     {
+                        pictureBox1.Image = Image.FromFile("обнимашки.jpg");
                         label1.Text = "Злюка ты!\n" + "Даже заражать не хочется.\n Я ухожу.";
                         button1.Text = "Пока.";
                         button2.Text = "Удачи.";
@@ -394,6 +415,7 @@ namespace TextKvestGame
                     }
                 case 53:
                     {
+                        pictureBox1.Image = Image.FromFile("толстый.jpg");
                         label1.Text = "Работай.\n" + "Я пойду.";
                         button1.Text = "Пока.";
                         button2.Text = "Удачи.";
@@ -415,6 +437,7 @@ namespace TextKvestGame
                     }
                 case 56:
                     {
+                        pictureBox1.Image = Image.FromFile("еще толстый.jpg");
                         label1.Text = "Плохо, что вирусы с человеками не дружат.\n" + "Эх... пока, человек.\n";
                         button1.Text = "Пока.";
                         button2.Text = "Удачи.";
@@ -464,6 +487,7 @@ namespace TextKvestGame
                     }
                 case 63:
                     {
+                        pictureBox1.Image = Image.FromFile("приветствие.jpg");
                         label1.Text = "Мне скучно с тобой.\n" + "Я пойду.";
                         button1.Text = "Пока.";
                         button2.Text = "Уйди!";
@@ -483,6 +507,11 @@ namespace TextKvestGame
         {
             status = status * 2 + 1;
             Close();
+
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
 
         }
     }
