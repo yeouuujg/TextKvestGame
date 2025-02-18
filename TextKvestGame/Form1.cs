@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 
 namespace TextKvestGame
 {
@@ -16,15 +17,26 @@ namespace TextKvestGame
         {
             InitializeComponent();
         }
-
-        private void button2_Click(object sender, EventArgs e)
+        private void Form1_Paint(object sender, PaintEventArgs e)
         {
-
-        }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
+            Form2 f2 = new Form2();
+            f2.status = 1;//переменная отвечающая за сюжет
+            while (f2.status < 64)
+            {
+                f2.ShowDialog();//диалог с двумя вариантами ответов
+            }
+            Close();
 
         }
     }
 }
+
+
+
+
+
+
+
+
+
+
